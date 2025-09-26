@@ -1,4 +1,4 @@
-# ESP32 ThingsBoard Template with DHT22 Sensor and LED
+# ESP32 ThingsBoard with DHT22 Sensor and LED
 
 This project is a **basic template** for ESP32 that integrates a DHT22 temperature/humidity sensor and a controllable LED, all simulated in **Wokwi** and connected to **ThingsBoard** for IoT.
 
