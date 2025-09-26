@@ -20,6 +20,9 @@ The project implements:
 - **Red LED** - Controllable visual indicator
 
 ### Connections (according to diagram.json)
+
+![Circuit Schematic](squema.jpg)
+
 ```
 DHT22:
 ├── VCC → ESP32 3V3
@@ -62,7 +65,7 @@ constexpr char WIFI_PASSWORD[] = "";             // Password (empty for Wokwi)
 
 ### 2. ThingsBoard Configuration
 ```cpp
-constexpr char TOKEN[] = "oCaqJyAwZGmowynySsh6";           // Device token (from thingboard)
+constexpr char TOKEN[] = "xxxxxxxxxxxxxxxxxxxx";           // Device token (from thingboard)
 constexpr char THINGSBOARD_SERVER[] = "thingsboard.cloud"; // ThingsBoard server
 constexpr uint16_t THINGSBOARD_PORT = 1883U;               // MQTT port
 ```
